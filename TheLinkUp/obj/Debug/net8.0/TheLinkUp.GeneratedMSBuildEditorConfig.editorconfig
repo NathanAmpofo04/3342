@@ -9,73 +9,73 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TheLinkUp
 build_property.RootNamespace = TheLinkUp
-build_property.ProjectDir = C:\Users\mslau\OneDrive\Desktop\CIS 3342\Spring 2026\Project 3\TheLinkUp\TheLinkUp\
+build_property.ProjectDir = C:\Users\natha\OneDrive\Desktop\3342 Project\3342NOAProject\3342\TheLinkUp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\mslau\OneDrive\Desktop\CIS 3342\Spring 2026\Project 3\TheLinkUp\TheLinkUp
+build_property.MSBuildProjectDirectory = C:\Users\natha\OneDrive\Desktop\3342 Project\3342NOAProject\3342\TheLinkUp
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/mslau/OneDrive/Desktop/CIS 3342/Spring 2026/Project 3/TheLinkUp/TheLinkUp/Views/Account/CreateProfile.cshtml]
+[C:/Users/natha/OneDrive/Desktop/3342 Project/3342NOAProject/3342/TheLinkUp/Views/Account/CreateProfile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDcmVhdGVQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mslau/OneDrive/Desktop/CIS 3342/Spring 2026/Project 3/TheLinkUp/TheLinkUp/Views/Account/Login.cshtml]
+[C:/Users/natha/OneDrive/Desktop/3342 Project/3342NOAProject/3342/TheLinkUp/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mslau/OneDrive/Desktop/CIS 3342/Spring 2026/Project 3/TheLinkUp/TheLinkUp/Views/Account/Profile.cshtml]
+[C:/Users/natha/OneDrive/Desktop/3342 Project/3342NOAProject/3342/TheLinkUp/Views/Account/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mslau/OneDrive/Desktop/CIS 3342/Spring 2026/Project 3/TheLinkUp/TheLinkUp/Views/Account/Register.cshtml]
+[C:/Users/natha/OneDrive/Desktop/3342 Project/3342NOAProject/3342/TheLinkUp/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mslau/OneDrive/Desktop/CIS 3342/Spring 2026/Project 3/TheLinkUp/TheLinkUp/Views/Events/DisplayEvents.cshtml]
+[C:/Users/natha/OneDrive/Desktop/3342 Project/3342NOAProject/3342/TheLinkUp/Views/Events/DisplayEvents.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzXERpc3BsYXlFdmVudHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mslau/OneDrive/Desktop/CIS 3342/Spring 2026/Project 3/TheLinkUp/TheLinkUp/Views/Events/MyRSVPs.cshtml]
+[C:/Users/natha/OneDrive/Desktop/3342 Project/3342NOAProject/3342/TheLinkUp/Views/Events/MyRSVPs.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzXE15UlNWUHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mslau/OneDrive/Desktop/CIS 3342/Spring 2026/Project 3/TheLinkUp/TheLinkUp/Views/Events/ViewEventDetails.cshtml]
+[C:/Users/natha/OneDrive/Desktop/3342 Project/3342NOAProject/3342/TheLinkUp/Views/Events/ViewEventDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzXFZpZXdFdmVudERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mslau/OneDrive/Desktop/CIS 3342/Spring 2026/Project 3/TheLinkUp/TheLinkUp/Views/Home/Index.cshtml]
+[C:/Users/natha/OneDrive/Desktop/3342 Project/3342NOAProject/3342/TheLinkUp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mslau/OneDrive/Desktop/CIS 3342/Spring 2026/Project 3/TheLinkUp/TheLinkUp/Views/Home/Privacy.cshtml]
+[C:/Users/natha/OneDrive/Desktop/3342 Project/3342NOAProject/3342/TheLinkUp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mslau/OneDrive/Desktop/CIS 3342/Spring 2026/Project 3/TheLinkUp/TheLinkUp/Views/Profile/ViewProfile.cshtml]
+[C:/Users/natha/OneDrive/Desktop/3342 Project/3342NOAProject/3342/TheLinkUp/Views/Profile/ViewProfile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxWaWV3UHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mslau/OneDrive/Desktop/CIS 3342/Spring 2026/Project 3/TheLinkUp/TheLinkUp/Views/Shared/Error.cshtml]
+[C:/Users/natha/OneDrive/Desktop/3342 Project/3342NOAProject/3342/TheLinkUp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mslau/OneDrive/Desktop/CIS 3342/Spring 2026/Project 3/TheLinkUp/TheLinkUp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/natha/OneDrive/Desktop/3342 Project/3342NOAProject/3342/TheLinkUp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mslau/OneDrive/Desktop/CIS 3342/Spring 2026/Project 3/TheLinkUp/TheLinkUp/Views/_ViewImports.cshtml]
+[C:/Users/natha/OneDrive/Desktop/3342 Project/3342NOAProject/3342/TheLinkUp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mslau/OneDrive/Desktop/CIS 3342/Spring 2026/Project 3/TheLinkUp/TheLinkUp/Views/_ViewStart.cshtml]
+[C:/Users/natha/OneDrive/Desktop/3342 Project/3342NOAProject/3342/TheLinkUp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mslau/OneDrive/Desktop/CIS 3342/Spring 2026/Project 3/TheLinkUp/TheLinkUp/Views/Shared/_Layout.cshtml]
+[C:/Users/natha/OneDrive/Desktop/3342 Project/3342NOAProject/3342/TheLinkUp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-qlgknxgfop
