@@ -1,0 +1,45 @@
+﻿@{
+    Layout = null;
+}
+
+<html>
+<head>
+    <title>Create Profile</title>
+</head>
+<body>
+    <h2>Create Profile</h2>
+
+    <div>
+        @Html.Raw(ViewData["Message"])
+    </div>
+
+    <form asp-controller="Profile" asp-action="SaveProfile" method="post">
+        <table>
+            <tr>
+                <td>Full Name:</td>
+                <td><input type="text" name="txtFullName" /></td>
+            </tr>
+            <tr>
+                <td>Age:</td>
+                <td><input type="text" name="txtAge" /></td>
+            </tr>
+            <tr>
+                <td>City:</td>
+                <td><input type="text" name="txtCity" /></td>
+            </tr>
+            <tr>
+                <td>State:</td>
+                <td><input type="text" name="txtState" /></td>
+            </tr>
+            <tr>
+                <td>Description:</td>
+                <td><input type="text" name="txtDescription" /></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Save Profile" /></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

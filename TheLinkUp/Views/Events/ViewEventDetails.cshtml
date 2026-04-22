@@ -1,0 +1,125 @@
+﻿@model TheLinkUp.Models.Event
+
+<div class="container mt-4">
+    <div id="liveMessage" class="alert alert-info mt-3" style="display:none;"></div>
+
+    @if (TempData["RSVPMessage"] != null)
+    {
+        <div class="alert alert-info mt-3">
+            @TempData["RSVPMessage"]
+        </div>
+    }
+
+    <div class="section-card">
+        <div class="row">
+            <div class="col-md-5">
+                <img src="@Model.ImageURL" class="img-fluid rounded" />
+            </div>
+
+            <div class="col-md-7">
+                <h2>@Model.EventName</h2>
+
+                <p><strong>Date:</strong> @Model.EventDate</p>
+                <p><strong>Venue:</strong> @Model.VenueName</p>
+
+                <p>
+                    <strong>Location:</strong>
+                    @if (!string.IsNullOrEmpty(Model.City) && !string.IsNullOrEmpty(Model.State))
+                    {
+                        @Model.City @(", ") @Model.State
+                    }
+                    else if (!string.IsNullOrEmpty(Model.City))
+                    {
+                        @Model.City
+                    }
+                    else if (!string.IsNullOrEmpty(Model.State))
+                    {
+                        @Model.State
+                    }
+                </p>
+
+                <a href="@Model.EventURL" target="_blank" class="btn btn-success me-2">View on Ticketmaster</a>
+                <a asp-controller="Events" asp-action="DisplayEvents" class="btn btn-secondary">Back to Events</a>
+
+                <form asp-controller="Events" asp-action="RSVPToEvent" method="post" class="mt-3">
+                    <input type="hidden" name="eventID" value="@Model.EventID" />
+                    <input type="hidden" name="eventName" value="@Model.EventName" />
+                    <input type="hidden" name="eventDate" value="@Model.EventDate" />
+                    <input type="hidden" name="venueName" value="@Model.VenueName" />
+                    <input type="hidden" name="city" value="@Model.City" />
+                    <input type="hidden" name="state" value="@Model.State" />
+
+                    <input type="submit" value="RSVP to Event" class="btn btn-primary mt-3" />
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-card">
+        <h3>Nearby Places to Meet</h3>
+
+        @if (Model.NearbyPlaces != null && Model.NearbyPlaces.Count > 0)
+        {
+            @foreach (TheLinkUp.Models.YelpPlace place in Model.NearbyPlaces)
+            {
+                <div class="place-row">
+                    <strong>@place.Name</strong><br />
+                    Rating: @place.Rating<br />
+                    Category: @place.Category<br />
+                    Address: @place.Address
+                </div>
+            }
+        }
+        else
+        {
+            <p>No nearby places found.</p>
+        }
+    </div>
+
+    <div class="section-card">
+        <h3>Who’s Going</h3>
+
+        @if (Model.Attendees != null && Model.Attendees.Count > 0)
+        {
+            @foreach (TheLinkUp.Models.Attendee attendee in Model.Attendees)
+            {
+                <div class="attendee-row">
+                    <strong>@attendee.Username</strong>
+
+                    <div class="mt-2">
+                        <a asp-controller="Profile"
+                           asp-action="ViewProfile"
+                           asp-route-memberID="@attendee.MemberID"
+                           class="btn btn-outline-primary btn-sm">
+                            View Profile
+                        </a>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <p>No attendees yet.</p>
+        }
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/8.0.0/signalr.min.js"></script>
+
+<script>
+    var connection = new signalR.HubConnectionBuilder()
+        .withUrl("/eventHub")
+        .build();
+
+    connection.on("ReceiveRSVPUpdate", function (message) {
+        var messageBox = document.getElementById("liveMessage");
+        if (messageBox != null) {
+            messageBox.innerHTML = message;
+            messageBox.style.display = "block";
+        }
+    });
+
+    connection.start().catch(function (err) {
+        return console.error(err.toString());
+    });
+</script>

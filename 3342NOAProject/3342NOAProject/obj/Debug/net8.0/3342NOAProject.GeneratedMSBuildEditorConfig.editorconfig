@@ -9,65 +9,65 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = _3342NOAProject
 build_property.RootNamespace = _3342NOAProject
-build_property.ProjectDir = C:\Users\natha\OneDrive\Desktop\3342 Project\3342NOAProject\3342NOAProject\
+build_property.ProjectDir = C:\Users\mslau\OneDrive\Documents\GitHub\3342\3342NOAProject\3342NOAProject\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\natha\OneDrive\Desktop\3342 Project\3342NOAProject\3342NOAProject
+build_property.MSBuildProjectDirectory = C:\Users\mslau\OneDrive\Documents\GitHub\3342\3342NOAProject\3342NOAProject
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/natha/OneDrive/Desktop/3342 Project/3342NOAProject/3342NOAProject/Views/Home/Index.cshtml]
+[C:/Users/mslau/OneDrive/Documents/GitHub/3342/3342NOAProject/3342NOAProject/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/natha/OneDrive/Desktop/3342 Project/3342NOAProject/3342NOAProject/Views/Home/Privacy.cshtml]
+[C:/Users/mslau/OneDrive/Documents/GitHub/3342/3342NOAProject/3342NOAProject/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/natha/OneDrive/Desktop/3342 Project/3342NOAProject/3342NOAProject/Views/Login/CreateAccount.cshtml]
+[C:/Users/mslau/OneDrive/Documents/GitHub/3342/3342NOAProject/3342NOAProject/Views/Login/CreateAccount.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cQ3JlYXRlQWNjb3VudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/natha/OneDrive/Desktop/3342 Project/3342NOAProject/3342NOAProject/Views/Login/Dashboard.cshtml]
+[C:/Users/mslau/OneDrive/Documents/GitHub/3342/3342NOAProject/3342NOAProject/Views/Login/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cRGFzaGJvYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/natha/OneDrive/Desktop/3342 Project/3342NOAProject/3342NOAProject/Views/Login/Index.cshtml]
+[C:/Users/mslau/OneDrive/Documents/GitHub/3342/3342NOAProject/3342NOAProject/Views/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/natha/OneDrive/Desktop/3342 Project/3342NOAProject/3342NOAProject/Views/Login/LoginForm.cshtml]
+[C:/Users/mslau/OneDrive/Documents/GitHub/3342/3342NOAProject/3342NOAProject/Views/Login/LoginForm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW5Gb3JtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/natha/OneDrive/Desktop/3342 Project/3342NOAProject/3342NOAProject/Views/Profile/EditProfile.cshtml]
+[C:/Users/mslau/OneDrive/Documents/GitHub/3342/3342NOAProject/3342NOAProject/Views/Profile/EditProfile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxFZGl0UHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/natha/OneDrive/Desktop/3342 Project/3342NOAProject/3342NOAProject/Views/Profile/UploadPhotos.cshtml]
+[C:/Users/mslau/OneDrive/Documents/GitHub/3342/3342NOAProject/3342NOAProject/Views/Profile/UploadPhotos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxVcGxvYWRQaG90b3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/natha/OneDrive/Desktop/3342 Project/3342NOAProject/3342NOAProject/Views/Shared/Error.cshtml]
+[C:/Users/mslau/OneDrive/Documents/GitHub/3342/3342NOAProject/3342NOAProject/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/natha/OneDrive/Desktop/3342 Project/3342NOAProject/3342NOAProject/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/mslau/OneDrive/Documents/GitHub/3342/3342NOAProject/3342NOAProject/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/natha/OneDrive/Desktop/3342 Project/3342NOAProject/3342NOAProject/Views/_ViewImports.cshtml]
+[C:/Users/mslau/OneDrive/Documents/GitHub/3342/3342NOAProject/3342NOAProject/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/natha/OneDrive/Desktop/3342 Project/3342NOAProject/3342NOAProject/Views/_ViewStart.cshtml]
+[C:/Users/mslau/OneDrive/Documents/GitHub/3342/3342NOAProject/3342NOAProject/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/natha/OneDrive/Desktop/3342 Project/3342NOAProject/3342NOAProject/Views/Shared/_Layout.cshtml]
+[C:/Users/mslau/OneDrive/Documents/GitHub/3342/3342NOAProject/3342NOAProject/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-aj1cozyudo

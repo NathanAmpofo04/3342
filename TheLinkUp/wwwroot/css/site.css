@@ -1,0 +1,233 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+body {
+    background: linear-gradient(to bottom right, #f3f1e8, #e4e0cd, #d7d1b4);
+    color: #2b241e;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page-shell {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px 0 30px 0;
+}
+.navbar {
+    background-color: rgba(243, 241, 232, 0.96) !important;
+    border-bottom: 1px solid #c9c2a5 !important;
+    box-shadow: 0 4px 16px rgba(43, 36, 30, 0.08);
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #6f6d45 !important;
+    letter-spacing: 0.5px;
+}
+
+.nav-link {
+    color: #4a4338 !important;
+    font-weight: 500;
+    margin-right: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+    .nav-link:hover {
+        color: #8c8a5a !important;
+    }
+
+.container {
+    margin-top: 10px;
+}
+
+.card {
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #fdfbf7;
+    box-shadow: 0 10px 25px rgba(43, 36, 30, 0.10);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+    .card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 14px 30px rgba(43, 36, 30, 0.14);
+    }
+
+.card-title {
+    color: #6f6d45;
+    font-weight: 700;
+}
+
+.card-text {
+    color: #4a4338;
+    line-height: 1.6;
+}
+
+.btn-primary {
+    background: linear-gradient(to right, #7b7a45, #5f6133);
+    border: none;
+    border-radius: 999px;
+    font-weight: 600;
+    padding: 10px 18px;
+}
+
+    .btn-primary:hover {
+        background: linear-gradient(to right, #5f6133, #4f5128);
+    }
+
+.btn-secondary {
+    background-color: #d8d0c1;
+    color: #4a4338;
+    border: none;
+    border-radius: 999px;
+    font-weight: 600;
+    padding: 10px 18px;
+}
+
+    .btn-secondary:hover {
+        background-color: #cbc2b2;
+        color: #2b241e;
+    }
+
+.btn-success {
+    background: linear-gradient(to right, #c6a86a, #a88b52);
+    border: none;
+    color: white;
+    border-radius: 999px;
+    font-weight: 600;
+    padding: 10px 18px;
+}
+
+    .btn-success:hover {
+        background: linear-gradient(to right, #a88b52, #8f7342);
+        color: white;
+    }
+
+.btn-outline-primary {
+    color: #6f6d45;
+    border: 1px solid #a6a27a;
+    border-radius: 999px;
+    font-weight: 600;
+}
+
+    .btn-outline-primary:hover {
+        background-color: #e7e1d4;
+        color: #4f4d2f;
+        border-color: #8c8a5a;
+    }
+
+.alert-info {
+    background-color: #eee8dd;
+    border: 1px solid #d8d0c1;
+    color: #4a4338;
+    border-radius: 15px;
+}
+
+img {
+    border-radius: 16px;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #6f6d45;
+    font-weight: 700;
+}
+
+.form-card {
+    max-width: 650px;
+    margin: 40px auto;
+    background-color: #fdfbf7;
+    border-radius: 24px;
+    box-shadow: 0 12px 28px rgba(43, 36, 30, 0.12);
+    padding: 35px;
+}
+
+    .form-card input,
+    .form-card textarea {
+        width: 100%;
+        border: 1px solid #d8d0c1;
+        border-radius: 14px;
+        padding: 10px 14px;
+        margin-top: 6px;
+        margin-bottom: 14px;
+        background-color: #f7f4ec;
+    }
+
+        .form-card input:focus,
+        .form-card textarea:focus {
+            outline: none;
+            border-color: #8c8a5a;
+            box-shadow: 0 0 0 3px rgba(140, 138, 90, 0.12);
+        }
+
+.profile-info p {
+    margin-bottom: 10px;
+    color: #4a4338;
+}
+
+.section-card {
+    padding: 22px;
+    margin-bottom: 18px;
+}
+
+.attendee-row,
+.place-row {
+    padding: 14px 0;
+    border-bottom: 1px solid #e2dbcf;
+}
+
+    .attendee-row:last-child,
+    .place-row:last-child {
+        border-bottom: none;
+    }
+
+.hero-section {
+    padding: 20px 20px 10px 20px;
+}
+
+.hero-card {
+    padding: 45px 32px;
+}}
+
+.hero-title {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #5f6133;
+    letter-spacing: 1px;
+    margin-bottom: 18px;
+}
+
+.hero-subtitle {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1.15rem;
+    line-height: 1.8;
+    color: #4a4338;
+}
+
+.hero-buttons .btn {
+    min-width: 180px;
+}
+
+.footer {
+    padding: 12px 0;
+    color: #8a8576;
+    font-size: 0.85rem;
+    text-align: center;
+    background: transparent;
+    border-top: 1px solid #c9c2a5;
+}

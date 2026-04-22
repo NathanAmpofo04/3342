@@ -1,0 +1,40 @@
+﻿@{
+    Layout = null;
+}
+
+<html>
+<head>
+    <title>Register</title>
+</head>
+<body>
+    <h2>Create Account</h2>
+
+    <div>
+        @Html.Raw(ViewData["Message"])
+    </div>
+
+    <form asp-controller="Account" asp-action="CreateAccount" method="post">
+        <table>
+            <tr>
+                <td>Username:</td>
+                <td><input type="text" name="txtUsername" /></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="text" name="txtEmail" /></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="txtPassword" /></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Create Account" /></td>
+            </tr>
+        </table>
+    </form>
+
+    <br />
+    <a href="/Account/Login">Back to Login</a>
+</body>
+</html>

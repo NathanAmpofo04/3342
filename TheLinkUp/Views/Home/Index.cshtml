@@ -1,0 +1,48 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="hero-section text-center">
+    <div class="hero-card">
+        <h1 class="hero-title">The LinkUp</h1>
+        <p class="hero-subtitle">
+            An event-based dating and networking experience designed to help people connect through shared interests, real events, and meaningful interactions.
+        </p>
+
+        <div class="hero-buttons mt-4">
+            <a asp-controller="Account" asp-action="Login" class="btn btn-primary me-2">Log In</a>
+            <a asp-controller="Account" asp-action="Register" class="btn btn-secondary">Sign Up</a>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-5 mb-5">
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="section-card text-center h-100">
+                <h3>Discover</h3>
+                <p>
+                    Browse real events pulled directly from Ticketmaster and find experiences that match your vibe.
+                </p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="section-card text-center h-100">
+                <h3>Connect</h3>
+                <p>
+                    RSVP to events, see who’s going, and explore attendee profiles to build real social and dating connections.
+                </p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="section-card text-center h-100">
+                <h3>Plan</h3>
+                <p>
+                    Use nearby places powered by Yelp to turn an event into a real meetup opportunity.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

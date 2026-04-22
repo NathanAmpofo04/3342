@@ -1541,23 +1541,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\natha\\.nuget\\packages\\": {},
+    "C:\\Users\\mslau\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\natha\\OneDrive\\Desktop\\3342 Project\\3342NOAProject\\ProfileServiceAPI\\ProfileServiceAPI.csproj",
+      "projectUniqueName": "C:\\Users\\mslau\\OneDrive\\Documents\\GitHub\\3342\\3342NOAProject\\ProfileServiceAPI\\ProfileServiceAPI.csproj",
       "projectName": "ProfileServiceAPI",
-      "projectPath": "C:\\Users\\natha\\OneDrive\\Desktop\\3342 Project\\3342NOAProject\\ProfileServiceAPI\\ProfileServiceAPI.csproj",
-      "packagesPath": "C:\\Users\\natha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\natha\\OneDrive\\Desktop\\3342 Project\\3342NOAProject\\ProfileServiceAPI\\obj\\",
+      "projectPath": "C:\\Users\\mslau\\OneDrive\\Documents\\GitHub\\3342\\3342NOAProject\\ProfileServiceAPI\\ProfileServiceAPI.csproj",
+      "packagesPath": "C:\\Users\\mslau\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mslau\\OneDrive\\Documents\\GitHub\\3342\\3342NOAProject\\ProfileServiceAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\natha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mslau\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1618,7 +1618,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

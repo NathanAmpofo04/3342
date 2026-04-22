@@ -1,0 +1,35 @@
+﻿@model List<TheLinkUp.Models.RSVP>
+
+<div class="container mt-4">
+    <h2 class="mb-4">My Event Plans</h2>
+
+    @if (Model.Count > 0)
+    {
+        <div class="row">
+            @foreach (TheLinkUp.Models.RSVP rsvp in Model)
+            {
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow p-3">
+                        <h5>@rsvp.EventName</h5>
+                        <p>
+                            <strong>Date:</strong> @rsvp.EventDate <br />
+                            <strong>Venue:</strong> @rsvp.VenueName <br />
+                            <strong>Location:</strong> @rsvp.City, @rsvp.State
+                        </p>
+
+                        <a asp-controller="Events"
+                           asp-action="ViewEventDetails"
+                           asp-route-id="@rsvp.EventID"
+                           class="btn btn-primary w-100">
+                            View Event
+                        </a>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <p>You have not RSVP'd to any events yet.</p>
+    }
+</div>
