@@ -1,0 +1,41 @@
+﻿@model _3342NOAProject.Models.Account
+
+@{
+    ViewData["Title"] = "Enter To The Villa";
+}
+
+<div class="page-wrapper">
+    <div class="hero">
+        <h1>Enter the villa.</h1>
+        <p class="muted">Sign in to access member features.</p>
+    </div>
+
+    <div class="section">
+        @using (Html.BeginForm("ProcessLogin", "Login", FormMethod.Post))
+        {
+            <div class="form-grid">
+                <div class="form-group">
+                    <label for="UserName">Username</label>
+                    <input type="text" name="UserName" id="UserName" class="form-control" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="Password">Password</label>
+                    <input type="password" name="Password" id="Password" class="form-control" required />
+                </div>
+            </div>
+
+            <div class="button-row" style="text-align: center; margin-top: 20px;">
+                <button type="submit" class="btn">Login</button>
+                <a href="@Url.Action("Index", "Login")" class="btn">Back</a>
+            </div>
+        }
+
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <div class="text-center" style="margin-top:15px;">
+                <span class="message" style="color: red;">@TempData["ErrorMessage"]</span>
+            </div>
+        }
+    </div>
+</div>

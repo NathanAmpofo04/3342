@@ -1,0 +1,55 @@
+﻿@model _3342NOAProject.Models.Account
+
+@{
+    ViewData["Title"] = "Join The Island!";
+}
+
+<div class="page-wrapper">
+
+    <div class="hero">
+        <h1>Create Account</h1>
+        <p class="muted">Register to build your profile and start matching.</p>
+    </div>
+
+    <div class="section">
+        @using (Html.BeginForm("ProcessRegistration", "Login", FormMethod.Post))
+        {
+            <div class="form-group">
+                <label asp-for="UserName">Username</label>
+                <input asp-for="UserName" class="form-control" />
+                <span asp-validation-for="UserName" class="text-danger" style="color:red; display:block; font-size: 0.8em;"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Password">Password</label>
+                <input asp-for="Password" type="password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger" style="color:red; display:block; font-size: 0.8em;"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="FullName">Full Name</label>
+                <input asp-for="FullName" class="form-control" />
+                <span asp-validation-for="FullName" class="text-danger" style="color:red; display:block; font-size: 0.8em;"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Email">Email</label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger" style="color:red; display:block; font-size: 0.8em;"></span>
+            </div>
+
+            <div class="text-center" style="margin-top:20px;">
+                <button type="submit" class="btn">Create Account</button>
+                <a asp-controller="Login" asp-action="Index" class="btn">Back</a>
+            </div>
+        }
+
+        @if (TempData["Message"] != null)
+        {
+            <div class="text-center" style="margin-top:15px;">
+                <span class="message">@TempData["Message"]</span>
+            </div>
+        }
+    </div>
+
+</div>

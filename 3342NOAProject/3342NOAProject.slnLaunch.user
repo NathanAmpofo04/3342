@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "3342NOAProject\\3342NOAProject.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "ProfileServiceAPI\\ProfileServiceAPI.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

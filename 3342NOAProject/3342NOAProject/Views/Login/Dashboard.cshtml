@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="page-wrapper">
+    <div class="hero">
+        <h1>Dashboard</h1>
+        <p class="muted">Welcome back, @ViewBag.UserName! Choose what you want to do.</p>
+    </div>
+
+    <div class="section">
+        <div class="grid">
+            <div class="kv">
+                <b>New Matches:</b>
+                <span>0</span>
+            </div>
+
+            <div class="kv">
+                <b>Date Requests:</b>
+                <span>0</span>
+            </div>
+
+            <div class="kv full-width">
+                <b>Status:</b>
+                <span class="muted">You are logged in as @ViewBag.UserName.</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="section text-center">
+        <a asp-controller="Profile" asp-action="Edit" class="btn action-btn">My Profile</a>
+        <a asp-controller="Profile" asp-action="UploadPhotos" class="btn btn-primary">
+            Add Gallery Photos
+        </a>
+        <a asp-controller="Search" asp-action="Index" class="btn action-btn">Search</a>
+        <a asp-controller="Matches" asp-action="Likes" class="btn action-btn">Likes</a>
+        <a asp-controller="Matches" asp-action="Index" class="btn action-btn">Matches</a>
+        <a asp-controller="Dates" asp-action="Requests" class="btn action-btn">Date Requests</a>
+        <a asp-controller="Dates" asp-action="Plan" class="btn action-btn">Date Plan</a>
+
+        <a asp-controller="Login" asp-action="Index" class="btn action-btn" style="background-color: #666;">Logout</a>
+    </div>
+</div>

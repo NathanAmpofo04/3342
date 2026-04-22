@@ -1,0 +1,164 @@
+﻿@model _3342NOAProject.Models.Account
+
+@{
+    ViewData["Title"] = "Edit Your Profile";
+}
+
+<div class="page-wrapper">
+
+    <div class="hero">
+        <h1>Edit Profile</h1>
+        <p class="muted">Update your profile information. All fields are required to find your perfect match!</p>
+    </div>
+
+    <div class="section form-panel">
+        <form asp-controller="Profile" asp-action="Edit" method="post" novalidate>
+
+            @* Keep track of the UserID and the current Visibility Status *@
+            <input type="hidden" asp-for="UserId" />
+            <input type="hidden" asp-for="IsHidden" />
+            <input type="hidden" asp-for="UserName" />
+            <input type="hidden" asp-for="Password" />
+            <input type="hidden" asp-for="Email" />
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-grid">
+
+                <div class="form-group">
+                    <label asp-for="FullName">Full Name</label>
+                    <input asp-for="FullName" class="form-control" />
+                    <span asp-validation-for="FullName" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Age">Age</label>
+                    <input asp-for="Age" type="number" class="form-control" />
+                    <span asp-validation-for="Age" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Height">Height</label>
+                    <input asp-for="Height" class="form-control" />
+                    <span asp-validation-for="Height" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Weight">Weight</label>
+                    <input asp-for="Weight" class="form-control" />
+                    <span asp-validation-for="Weight" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Occupation">Occupation</label>
+                    <input asp-for="Occupation" class="form-control" />
+                    <span asp-validation-for="Occupation" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Phone">Phone</label>
+                    <input asp-for="Phone" class="form-control" />
+                    <span asp-validation-for="Phone" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Address">Address</label>
+                    <input asp-for="Address" class="form-control" />
+                    <span asp-validation-for="Address" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="City">City</label>
+                    <input asp-for="City" class="form-control" />
+                    <span asp-validation-for="City" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="State">State</label>
+                    <input asp-for="State" class="form-control" />
+                    <span asp-validation-for="State" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="PhotoURL">Photo URL</label>
+                    <input asp-for="PhotoURL" class="form-control" />
+                    <span asp-validation-for="PhotoURL" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Description">Description</label>
+                    <textarea asp-for="Description" rows="4" class="form-control"></textarea>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Goals">Goals</label>
+                    <input asp-for="Goals" class="form-control" />
+                    <span asp-validation-for="Goals" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="CommitmentType">Commitment Type</label>
+                    <input asp-for="CommitmentType" class="form-control" />
+                    <span asp-validation-for="CommitmentType" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="FavoriteMovie">Favorite Movie</label>
+                    <input asp-for="FavoriteMovie" class="form-control" />
+                    <span asp-validation-for="FavoriteMovie" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="FavoriteRestaurant">Favorite Restaurant</label>
+                    <input asp-for="FavoriteRestaurant" class="form-control" />
+                    <span asp-validation-for="FavoriteRestaurant" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="FavoriteBook">Favorite Book</label>
+                    <input asp-for="FavoriteBook" class="form-control" />
+                    <span asp-validation-for="FavoriteBook" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="FavoritePoem">Favorite Poem</label>
+                    <input asp-for="FavoritePoem" class="form-control" />
+                    <span asp-validation-for="FavoritePoem" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="FavoriteQuote">Favorite Quote</label>
+                    <input asp-for="FavoriteQuote" class="form-control" />
+                    <span asp-validation-for="FavoriteQuote" class="text-danger"></span>
+                </div>
+
+            </div>
+
+            <div class="button-row" style="margin-top: 20px; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
+
+                <button type="submit" name="submitButton" value="Update" class="btn">Update Profile</button>
+
+                @* Toggle Button: Changes color and text based on status *@
+                <button type="submit" name="submitButton" value="ToggleVisibility"
+                        class="btn @(Model.IsHidden ? "btn-unhide" : "btn-hide")"
+                        style="background-color: @(Model.IsHidden ? "#28a745" : "#ffc107"); color: white;">
+                    @(Model.IsHidden ? "Unhide Profile" : "Hide Profile")
+                </button>
+
+                <a asp-controller="Login" asp-action="Dashboard" class="btn">Back to Dashboard</a>
+            </div>
+
+            @if (TempData["Message"] != null)
+            {
+                <div class="message-row" style="margin-top: 15px; text-align: center;">
+                    <span class="message" style="font-weight: bold; color: #d9534f;">@TempData["Message"]</span>
+                </div>
+            }
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

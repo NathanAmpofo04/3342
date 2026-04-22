@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37111.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3342NOAProject", "3342NOAProject\3342NOAProject.csproj", "{ECA084AA-1377-47C9-90D7-D22197660655}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProfileServiceAPI", "ProfileServiceAPI\ProfileServiceAPI.csproj", "{144CB8BA-30B3-4C18-9F5B-504588967264}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECA084AA-1377-47C9-90D7-D22197660655}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECA084AA-1377-47C9-90D7-D22197660655}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECA084AA-1377-47C9-90D7-D22197660655}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECA084AA-1377-47C9-90D7-D22197660655}.Release|Any CPU.Build.0 = Release|Any CPU
+		{144CB8BA-30B3-4C18-9F5B-504588967264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{144CB8BA-30B3-4C18-9F5B-504588967264}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{144CB8BA-30B3-4C18-9F5B-504588967264}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{144CB8BA-30B3-4C18-9F5B-504588967264}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F37B6ED-FECC-4B9B-ACDC-C8FD5378AC88}
+	EndGlobalSection
+EndGlobal

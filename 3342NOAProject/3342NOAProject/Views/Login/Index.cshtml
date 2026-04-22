@@ -1,0 +1,28 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Home</title>
+    <link href="/css/site.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="page-wrapper">
+
+        <div class="hero">
+            <h1>Welcome to Lauren and Nathan's Love Island</h1>
+            <p class="muted">Connect. Match. Plan A Date</p>
+        </div>
+
+        <div class="text-center" style="margin-top:30px;">
+            <a asp-controller="Login" asp-action="LoginForm" class="btn">Login</a>
+            <a asp-controller="Login" asp-action="CreateAccount" class="btn">Create Account</a>
+        </div>
+
+    </div>
+</body>
+</html>
